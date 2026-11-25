@@ -3,10 +3,13 @@
 void heartSetup();
 void heartLoop();
 void Asetup();
+void textSetup();
+void textLoop();
 
 void setup() {
-  Asetup();
+  textSetup();
 }
 
 void loop() {
+  textLoop();
 }
