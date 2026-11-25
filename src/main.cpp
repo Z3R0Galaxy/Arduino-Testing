@@ -2,11 +2,11 @@
 
 void heartSetup();
 void heartLoop();
+void Asetup();
 
 void setup() {
-  heartSetup();
+  Asetup();
 }
 
 void loop() {
-  heartLoop();
 }
