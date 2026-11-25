@@ -1,15 +1,11 @@
 #include <Arduino.h>
-
-void heartSetup();
-void heartLoop();
-void Asetup();
-void textSetup();
-void textLoop();
+void Ssetup();
+void Sloop();
 
 void setup() {
-  textSetup();
+  Ssetup();
 }
 
 void loop() {
-  textLoop();
+  Sloop();
 }
